@@ -1,3 +1,47 @@
+# graphs_mburrill
+
+A python library that uses Dijkstra's algorithm to find the shortest 
+distances from a starting vertex to other verices in a weighted graph. 
+Package includes the starter code provided for Homework 5
+
+## Requirements 
+
+-Python 3.9 or newer
+-Git
+-Nonnegative edge weights 
+
+## Installation 
+
+Install directly from GitHub:
+python -m pip install "git+https://github.com/burrillmj/graphs_mburrill.git"
+
+Or install from the project's root folder:
+python -m pip install .
+
+## Use 
+The function returns two dictionaries: shortest distances and paths.
+Each stored path excludes its destination, so the example adds the
+destination to display the full route.
+
+Every vertex must appear as a key in the graph dictionary.
+Use an empty dictionary for vertices with no outgoing edges.
+
+## Running the sample 
+
+After installing the package, run this from the project folder:
+python test.py data/example1.txt
+
+The sample script uses vertex 0 as its starting point.
+
+## Contributing
+
+Make changes on the dev branch and open a pull request into main.
+
+## Credits
+
+The Dijkstra implementation and heapq module were supplied with the
+course starter files.
+
 # Overview 
 
 The goal of this assignment is to assess your understanding of how to package a software library, as discussed in class.
@@ -19,7 +63,7 @@ You should create a public GitHub repository for your project to allow others to
 To receive credit for this assignment, update the README file and add the URL of your public GitHub repository below.
 
 ```
-URL for your GitHub repository: 
+URL for your GitHub repository: https://github.com/burrillmj/graphs_mburrill
 ```
 
 The expected structure for the GitHub repository is the following: 
